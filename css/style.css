@@ -12,6 +12,7 @@
     display: table;
   }
 
+
 .head{
   display: flex;
 
@@ -291,7 +292,7 @@ text-transform:uppercase;
 	}
 	.subscribe-form{
 		float:none; display:table; margin:0 auto;
-	}	
+	}
 }
 @media screen and (max-width:740px){
 	.my-slider ul li h2{
@@ -342,6 +343,7 @@ text-transform:uppercase;
 	.contakt-basket{
 		float:none; display:table; margin:0 auto;
 	}
+  
 }
 @media screen and (max-width:360px){
 	.email-inpt{
