@@ -4,8 +4,14 @@
 
 }
 
-.center-block-main{
-	max-width:1300px; margin:0 auto;}
+body{
+
+  	max-width:1210px; margin: 0 auto;
+  background-color:rgba(232, 232, 232, 1);
+
+
+}
+
 .clearfix::after {
     clear: both;
     content: "";
@@ -15,32 +21,34 @@
 
 .head{
   display: flex;
+padding: 10px 0 8px 0;
 
 
 }
 .head-img img{
-  text-align: left;
+
   margin-left: 110px;
   height: 100px;
 
 }
 form{
-  padding: 50px 0 20px 330px;
+  padding: 50px 0 20px 90px;
 }
 #user{
-  width: 600px;
+  width: 400px;
   padding: 5px;
   border-radius: 15px;
 outline: 0;
 
 }
 #btn{
-  width: 60px;
+  width: 80px;
   padding: 5px;
   border-radius: 5px;
+outline: none;
 }
 .log-in{
-  padding:20px 20px 0 400px;
+  padding:20px 20px 0 180px;
 }
 .log-in img{
   border-radius: 5px;
@@ -49,32 +57,24 @@ outline: 0;
   height: 20px;
 
 }
-.log-in a{
- margin: 10px;
+.log-in a {
+ margin: 15px;
   text-decoration: none;
+  font-size: 15px;
 color: red;
 }
+
 .log-in a:hover{
   text-decoration: none;
 }
 button{
-  border-radius: 5px;
+  border-radius: 10px;
   padding: 2px;
-
-}
-.reg{
-padding-top: 20px;
-}
-.reg a{
-  text-decoration: none;
-  margin:10px;
-
-}
-.reg button{
-  padding: 4px;
+  outline: none;
 }
 
-}
+
+
 
 .menu{
 
@@ -83,17 +83,21 @@ padding-top: 20px;
  .menu ul{
  list-style-type: none;
   display: flex;
-  width: 100%;
+
+   margin-left: 40px;
 
 }
 
 .menu a{
-  padding:10px 0 10px 200px;
+  width: 94%;
+  padding: 10px 10px;
+  text-align: center;
+  font-weight: bold;
 
-  display: inline;
-flex-grow: 1;
-border: 3px solid black;
+
+border: 1.5px solid black;
 text-decoration: none;
+
 }
 
 .menu a:hover{
@@ -103,43 +107,51 @@ text-decoration: none;
 .menu a li{
   color: black;
 
+
 }
 .catalog {
   margin-top: 320px;
   font-size: 35px;
-
+  margin-left: 40px;
+  width: 95.7%;
 text-align: center;
   background-color: black;
   color: white;
 
 }
+.list-1{
+    list-style-type:  none;
+}
 .list-1 a:first-child{
   color:white;
+
 }
 .list-1  ul{
 			display:none;
 			position: relative;
       text-align: left;
       font-size: 25px;
-
+  list-style-type:  none;
 		}
 		.list-1:hover ul{
 			display:block;
 			position: absolute;
-			top:528px;
+			top:542px;
 			z-index:9999;
-			width:100%;
+			width:95%;
 		background-color: rgba(179, 179, 179, 0.6);
 		}
 
     .block4-section{
-    	margin-bottom:60px;
+    	margin-bottom:30px;
       padding-top: 30px;
+      margin-left: 30px;
     }
     	.block4-section>h2{
     		text-align:center; font-family: 'Roboto Condensed', sans-serif; color:#67686d; font-size:1.375em; margin-bottom:30px;
     	}
     	.block4-main{
+
     	}
     		.block4-main article{
     			width:23%; margin-left:2.6666666666666666666666666666667%; float:left;
@@ -178,7 +190,7 @@ text-align: center;
         	margin-bottom:50px;
         	display:flex;
         	flex-flow: row wrap;
-           justify-content: flex-start;
+
 
         }
         .block3-main .main-teg {
@@ -189,6 +201,7 @@ text-align: center;
         text-decoration: none;
         padding: 10px;
         border-bottom: 2px solid black;
+        margin-left: 35px;
       }
       .block3-main .main-teg a{
           text-decoration: none;
@@ -200,10 +213,12 @@ text-align: center;
 
           }
         	.block3-main article{
-        		 width:17.2%;
-        		 margin-left:2.6%;
+        		 width:16.9%;
+        		 margin-left:2.8%;
         		 margin-bottom: 10px;
               padding-top: 10px;
+
+
         	}
         .block3-main img{
         	height: 180px;
@@ -223,26 +238,29 @@ text-align: center;
   display: flex;
   align-items: center;
   justify-content: center;
-text-transform:uppercase;
+  margin-left: 30px;
 
 }
 
 .mail{
-		width:100%; text-transform:uppercase; font-size:0.75em; margin-bottom:15px; padding:7px 20px; border:none; box-sizing: border-box;
+		width:70%; text-transform:uppercase; font-size:0.7em; margin-bottom:10px; padding:7px 20px; border:none; box-sizing: border-box;
 	}
 	.text{
-		width:100%; text-transform:uppercase; font-size:0.75em; margin-bottom:15px; padding:7px 20px; border:none; box-sizing: border-box;
+		width:70%; text-transform:uppercase; font-size:0.7em; margin-bottom:10px; padding:7px 20px; border:none; box-sizing: border-box;
 	}
 	.submit{
-		text-transform:uppercase; font-size:0.875em; border:none; background:black; padding:7px 20px; color:#fff; cursor:pointer;
+		text-transform:uppercase; font-size:0.8em; border-radius: 10px;background:black; padding:5px 20px; color:#fff; cursor:pointer;
+    outline: none;
 
 	}
 
 
           .ftr{
           	background:lightgray;
-            padding: 20px 0 20px 500px;
-
+            margin-left: 30px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
 
 
 
@@ -253,7 +271,9 @@ text-transform:uppercase;
 
           	}
           	.ftr p{
-          		font-size:0.975em; margin-bottom:20px;
+          		font-size:0.975em; margin-bottom:10px;
+              max-width: 300px;
+
           	}
           	.ftr h3{
           		font-size:0.875em; margin-bottom:5px;
@@ -266,7 +286,7 @@ text-transform:uppercase;
           			text-decoration: underline;
           		}
           	.support{
-          		 width:47%; margin-right:3%;
+          		 width:200px;
           	}
           		.support a{
           			display:block; margin-bottom:5px; text-decoration:none; color:#7e7f84;
@@ -343,7 +363,7 @@ text-transform:uppercase;
 	.contakt-basket{
 		float:none; display:table; margin:0 auto;
 	}
-  
+
 }
 @media screen and (max-width:360px){
 	.email-inpt{
